@@ -1,0 +1,15 @@
+{
+  "name": "yarn-hoist-issue",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "clean-deps": "rm -rf packages/*/node_modules node_modules"
+  }
+}
