@@ -10,7 +10,7 @@
     ]
   },
   "dependencies": {
-    "webpack": "^5.51.1",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3"
+    "webpack": "5.51.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.4.3"
   }
 }
