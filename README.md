@@ -72,3 +72,10 @@ After installing everything via `yarn`
   requested version of package `a` not `b` !!!
   
 As you can imagine, this causes a tremendous amount of issues...
+
+## What has been tried already
+
+- using no-hoist option in the root instead of the children
+- no-hoisting the plugin as well
+- no-hoisting anything... `*`, `**` and even `**/**` (yes we are desperate)
+- tried everything both in root and in the children
